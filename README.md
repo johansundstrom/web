@@ -19,7 +19,7 @@
 * Syfte med HTML
 * Några elemement
 * Struktur, element, attribut
-* Semantisk struktur
+* Semantisk struktur - header/nav/section/article/aside/footer
 
 ## Visual Studio Code - 2
 
