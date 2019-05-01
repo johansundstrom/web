@@ -87,7 +87,7 @@ $myNav: $myWidth * 0.25;
 	<line x1="400" y1="40" x2="100" y2="200" style="stroke:#ccc;stroke-width:2"></line>
 	<polygon points="200, 10 250, 190 160, 210" fill="green"></polygon>
 	<g transform="translate(300, 10)">
-		<polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160" fill="none" stroke="blue"></polyline>
+	    <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160" fill="none" stroke="blue"></polyline>
 	</g>
 	<path d="M0 200 L50 50 L100 150 L150 100 L200 150 Z" fill="none" stroke="red" stroke-width="5" stroke-dasharray="20,10,5,5,5,10"></path>
 	<path d="M 50 150 q 150 -300 300 50" stroke="lightblue" stroke-width="5" fill="none"></path>
@@ -103,7 +103,8 @@ $myNav: $myWidth * 0.25;
 * Bygger på SVG
 * https://fontawesome.com/start
 ```html
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <style>
     .fab { color:#3c5a99; font-size: 50px;}
 </style>
