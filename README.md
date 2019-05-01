@@ -95,6 +95,7 @@ $myNav: $myWidth * 0.25;
     </g>
 </svg>
 ```
+* se.svg
 
 ## Glyphicons
 
