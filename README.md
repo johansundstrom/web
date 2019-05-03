@@ -1,5 +1,7 @@
 # Webbutveckling
 
+* Metod
+* Designprinciper
 * HTML och CSS
 * Javascript
 * Typografi för webb
@@ -7,6 +9,19 @@
 * Layout för webb
 * Webbeditorer
 * Navigation
+
+## Metod
+
+* HISU
+
+## Designprinciper
+
+* Kognition/perception
+* Gestaltlagar
+* Visuell struktur
+* Typografi
+* Bilder
+* SNL
 
 ## Visual Studio Code - 1
 
