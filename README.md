@@ -86,13 +86,13 @@ console.log(myTemp);
 
 1. Skapa Projmapp
 2. Install Node/NPM
-1. Kontrollera - node -v, npm -v
-1. npm init
-1. Öppna package.json
-1. npm install -g node-sass
-1. package.json - "sass": "node-sass --watch scss/ output css/"
-1. npm run sass
-1. Redigera style.scss
+3. Kontrollera - node -v, npm -v
+4. npm init
+5. Öppna package.json
+6. npm install -g node-sass
+7. package.json - "sass": "node-sass --watch scss/ output css/"
+8. npm run sass
+9. Redigera style.scss
   
 ```css
 $base-color: #123456;
