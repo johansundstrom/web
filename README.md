@@ -82,7 +82,7 @@ console.log(myTemp);
 * Versioner - 4.3 (aug 2019)
 * Principen
 
-## Syntactically Awesome Style Sheets - Sass
+## Syntactically Awesome Style Sheets - SASS
 
 1. Skapa Projmapp
 2. Install Node/NPM
@@ -93,7 +93,9 @@ console.log(myTemp);
 7. package.json - "sass": "node-sass --watch scss/ output css/"
 8. npm run sass
 9. Redigera style.scss
-  
+
+Exempel på SASS-variabler
+
 ```css
 $base-color: #123456;
 $color-dark: rgba($base-color, 0.88);
