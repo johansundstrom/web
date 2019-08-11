@@ -83,7 +83,7 @@
 * npm run sass
 * Redigera style.scss
   
-```sass
+```css
 $bg: "123456";
 $myWidth: 800px;
 $myNav: $myWidth * 0.25;
