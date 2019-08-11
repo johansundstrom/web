@@ -58,7 +58,6 @@
 * Javascript engine
 * Högnivå, interpreterande skriptspråk
 * ECMA Script (European Computer Manufacturers Association)
-  
 * Developer tools - JS console
 * HTML ```<script>```-tag
 * ```window.alert("Hej");```
