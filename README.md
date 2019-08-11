@@ -56,35 +56,48 @@
 ## Javascript
 
 * Javascript engine
+* Högnivå, interpreterande skriptspråk
+* ECMA Script (European Computer Manufacturers Association)
+  
 * Developer tools - JS console
-* ```<script>``` tag
-* window.alert("Hej");
+* HTML ```<script>```-tag
+* ```window.alert("Hej");```
 * DOM
-* document.getElementById("test").innerHTML = "Hej";
+* ```document.getElementById("test").innerHTML = "Hej";```
 * Events - onclick(), onmouseover(), onload(), onchange()...
-* Functions
 * Variabler, scope
+* Functions
+
+```javascript
+function FtoC(celcius){
+    var fahrenheit = celcius * 9/5 +32;
+    return fahrenheit;
+}
+var myTemp = FtoC(100);
+console.log(myTemp);
+```
 
 ## CSS Framework - 1
 
 * Bootstrap
-* Versioner - 4.3
+* Versioner - 4.3 (aug 2019)
 * Principen
 
 ## Syntactically Awesome Style Sheets - Sass
 
-* Skapa Projmapp
-* Install Node/NPM
-* Kontrollera - node -v, npm -v
-* npm init
-* Öppna package.json
-* npm install -g node-sass
-* package.json - "sass": "node-sass --watch scss/ output css/"
-* npm run sass
-* Redigera style.scss
+1 Skapa Projmapp
+2 Install Node/NPM
+1 Kontrollera - node -v, npm -v
+1 npm init
+1 Öppna package.json
+1 npm install -g node-sass
+1 package.json - "sass": "node-sass --watch scss/ output css/"
+1 npm run sass
+1 Redigera style.scss
   
 ```css
-$bg: "123456";
+$base-color: #123456;
+$color-dark: rgba($base-color, 0.88);
 $myWidth: 800px;
 $myNav: $myWidth * 0.25;
 ```
