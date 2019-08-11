@@ -147,8 +147,8 @@ $myNav: $myWidth * 0.25;
 
 ## CSS Framework - 2
 
-* Bilder
-* Responsiv bildstorlek
+* Fasta bildstorlekar i dynamiska miljöer
+* Bildhantering i Bootstrap
   
 ```html
 <div class="container">
@@ -213,4 +213,7 @@ $myNav: $myWidth * 0.25;
 ## Layout med Bootstrap
 
 * Först för hand
-* Därefter med Extention - Bootstrap 4 (Ashok Koyi)
+* Därefter med VS Code Extention - Bootstrap 4 (Ashok Koyi)
+* b4-
+* b4-navbar-default
+* ...
