@@ -135,7 +135,8 @@ $myNav: $myWidth * 0.25;
      ...
 ```
 
-* se.svg
+* svgfil som bild
+```<img src="image.svg" alt="image">```
 
 ## Glyphicons
 
