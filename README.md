@@ -87,7 +87,7 @@ console.log(myTemp);
 1. Skapa Projmapp
 2. Install Node/NPM
 3. Kontrollera - node -v, npm -v
-4. npm init
+4. npm init (--yes)
 5. Öppna package.json
 6. npm install -g node-sass
 7. package.json - "sass": "node-sass --watch scss/ output css/"
