@@ -36,6 +36,7 @@
 * Struktur, element, attribut
 * Semantisk struktur - header/nav/section/article/aside/footer
 
+
 ## Visual Studio Code - 2
 
 * Command Palette - F1 (CTRL + Shift + P)
@@ -46,6 +47,7 @@
 * Standard, W3C, CSS delas upp i Modules-publiceras som Levels och publiceras som Snapshots
 * Syfte med CSS
 * Browser default, browser reset
+* inline, embed, linked
 * Selector - property: value
 * Div/span, ID/Class
 
