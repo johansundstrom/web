@@ -26,4 +26,13 @@
 5. skriv ```a.hidden = true```
 5. Vad hände på webbsidan?
 5. skriv ```a.hidden = false```
+5. skriv ```a.insertAdjacentHTML('afterend', '<span>Sundström</span>')
+5. Vad hände på webbsidan?
 
+insertAdjacentHTML har 4 parametrar...
+* ```beforebegin``` före vald element (som är a i detta fall)
+* ```afterbegin``` innanför valt element, innan eventuella child's
+* ```beforeend``` innanför valt element, efter eventuella child's
+* ```afterend``` efter vald element
+
+4. lödlföe
