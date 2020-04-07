@@ -26,3 +26,4 @@
 5. skriv ```a.hidden = true```
 5. Vad hände på webbsidan?
 5. skriv ```a.hidden = false```
+
