@@ -6,6 +6,7 @@
 2. identifiera navigation - element/console/ etc...
 3. Identifiera "element selector" och "toggle device"
 4. i Console...
+<pre>
     5. skriv ```document``` och undersök
     6. skriv ```domument.head``` och undersök
     7. skriv ```document.title``` och undersök
@@ -17,6 +18,7 @@
     9. skriv ```typeof(a)```
     9. skriv ```a = true```
     9. skriv ```typeof(a)```
+</pre>
 5. skapa ett nytt HTML-dokument och lägg till en div#myDiv i body
 6. skriv ```var a = document.getElementById('myDiv')```
 7. skriv ```a``` och undersök resultatet
