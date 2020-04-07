@@ -77,3 +77,26 @@ Skriv följande kod
 |onmouseout |	The user moves the mouse away from an HTML element |
 |onkeydown |	The user pushes a keyboard key |
 |onload |	The browser has finished loading the page |
+
+* Eventet ``onload``` kan starta scriptet
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    **<script>
+        function laddat(){
+            var a = document.getElementById('myDiv');
+            a.innerHTML = 'Johan';
+            a.style.color = 'red';
+        }
+    </script>**
+</head>
+**<body onload="laddat()">**
+    <div id="myDiv"></div>
+</body>
+</html>
+```
