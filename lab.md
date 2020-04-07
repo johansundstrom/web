@@ -104,5 +104,40 @@ Skriv följande kod
 ```
 
 * Funktionen ```minFunktion``` har funktionsuttryck inom { ... }
-* Funktionen ```minFunktion``` skapar objektet ```obj``` och tilldelar det HTML-elementet med id='myDiv'
+* Funktionen ```minFunktion``` skapar objektet ```obj``` och tilldelas HTML-elementet ```id='myDiv'```
 * Observera radslutstecknet ```;```
+
+### Enkel klocka
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function minFunktion(){
+            var myVar = setInterval(function() {
+                myTimer();
+            }, 1000);
+
+            function myTimer() {
+                var myTime = new Date();
+                myDiv = document.getElementById("myDiv");
+                myDiv.innerHTML = myTime.toLocaleTimeString();
+            }
+        }
+    </script>
+</head>
+<body onload="minFunktion()">
+    <div id="myDiv"></div>
+</body>
+</html>
+```
+
+* ```setInterval``` har som indata en funktion utan namn (anonym funktion) och ett millisekundvärde
+* Den anonyma funktionen anropas varje 1000mS (varje sekund)
+* ```setInterval``` anropas ända tills ```clearInterval()``` anropas eller fönstret stängs
+* Det anonyma funktionsuttrycket anropar funktionen myTimer
+* myTimer skriver ut ett landsspecifikt uttryck av lokal tid
