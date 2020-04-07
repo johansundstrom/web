@@ -79,6 +79,9 @@ Skriv följande kod
 |onload |	The browser has finished loading the page |
 
 * Eventet ``onload``` kan starta scriptet
+* ```onload``` etableras på body-elementet
+* ```onload``` anropar en funktion med namnet ```minFunktion```
+* Dess argument (indata) är tomt, men parenteser måste finnas
 
 ```javascript
 <!DOCTYPE html>
@@ -87,16 +90,19 @@ Skriv följande kod
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    **<script>
-        function laddat(){
-            var a = document.getElementById('myDiv');
-            a.innerHTML = 'Johan';
-            a.style.color = 'red';
+    <script>
+        function minFunktion(){
+            var obj = document.getElementById('myDiv');
+            obj.innerHTML = 'Johan';
+            obj.style.color = 'red';
         }
-    </script>**
+    </script>
 </head>
-**<body onload="laddat()">**
-    <div id="myDiv"></div>
+    <body onload="minFunktion()">
 </body>
 </html>
 ```
+
+* Funktionen ```minFunktion``` har funktionsuttryck inom { ... }
+* Funktionen ```minFunktion``` skapar objektet ```obj``` och tilldelar det HTML-elementet med id='myDiv'
+* Observera radslutstecknet ```;```
