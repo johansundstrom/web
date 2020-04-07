@@ -71,12 +71,12 @@ Skriv följande kod
 
 | Event | Description |
 |---|---|
-|onchange |	An HTML element has been changed |
-|onclick |	The user clicks an HTML element |
-|onmouseover |	The user moves the mouse over an HTML element |
-|onmouseout |	The user moves the mouse away from an HTML element |
-|onkeydown |	The user pushes a keyboard key |
-|onload |	The browser has finished loading the page |
+|onchange |	HTML-element har ändrats |
+|onclick |	Användaren klickar på ett HTML-element |
+|onmouseover |	Användaren flyttar in muspekaren på ett  HTML element |
+|onmouseout |	Användaren flyttar ut muspekaren från ett  HTML element |
+|onkeydown |	Användaren klickar på en tangent |
+|onload |	Webbläsaren har laddat hela HTML-dokumentet |
 
 * Eventet ``onload``` kan starta scriptet
 * ```onload``` etableras på body-elementet
@@ -136,8 +136,8 @@ Skriv följande kod
 </html>
 ```
 
-* ```setInterval``` har som indata en funktion utan namn (anonym funktion) och ett millisekundvärde
+* ```setInterval``` (ett tids event) har som indata en funktion utan namn (anonym funktion) och ett millisekundvärde
 * Den anonyma funktionen anropas varje 1000mS (varje sekund)
 * ```setInterval``` anropas ända tills ```clearInterval()``` anropas eller fönstret stängs
-* Det anonyma funktionsuttrycket anropar funktionen myTimer
-* myTimer skriver ut ett landsspecifikt uttryck av lokal tid
+* Det anonyma funktionsuttrycket anropar funktionen ```myTimer```
+* ```myTimer``` skriver ut ett landsspecifikt uttryck av lokal tid
