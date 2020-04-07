@@ -2,6 +2,8 @@
 
 ## Javascript
 
+### Inspectverktyget i Webbläsaren
+
 1. Browser developers tools
 2. identifiera navigation - element/console/ etc...
 3. Identifiera "element selector" och "toggle device"
@@ -36,5 +38,33 @@ insertAdjacentHTML har 4 parametrar...
 * ```beforeend``` innanför valt element, efter eventuella child's
 * ```afterend``` efter vald element
 
+5. Skriv ```a.style.color = 'red'````
+5. Vad hände på webbsidan?
 
-Med Javascript når vi allt i ett HTML-dokument genom DOM. 
+Med Javascript når vi allt, inklusive CSS, i ett HTML-dokument genom DOM. 
+
+### Javascript med kod
+
+Skriv följande kod
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = document.getElementById('myDiv');
+        a.innerHTML = 'Johan';
+    </script>
+</head>
+<body>
+    <div id="myDiv"></div>
+</body>
+</html>
+```
+
+* Visa i webbläsare, studera resultatet. Intressant?
+
+
+1. 
