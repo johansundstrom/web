@@ -20,6 +20,7 @@
 5. skapa ett nytt HTML-dokument och lägg till en div#myDiv i body
 6. skriv ```var a = document.getElementById('myDiv')```
 7. skriv ```a``` och undersök resultatet
+5. Besvara, vad är a för typ av variabel nu?
 8. skriv ```a.innerHTML('Johan')```
 5. Vad hände på webbsidan?
 7. skriv ```a``` och undersök resultatet
@@ -35,4 +36,5 @@ insertAdjacentHTML har 4 parametrar...
 * ```beforeend``` innanför valt element, efter eventuella child's
 * ```afterend``` efter vald element
 
-4. lödlföe
+
+Med Javascript når vi allt i ett HTML-dokument genom DOM. 
