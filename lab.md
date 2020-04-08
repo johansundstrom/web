@@ -78,7 +78,7 @@ Skriv följande kod
 |onkeydown |	Användaren klickar på en tangent |
 |onload |	Webbläsaren har laddat hela HTML-dokumentet |
 
-* Eventet ``onload``` kan starta scriptet
+* Eventet ```onload``` kan starta scriptet
 * ```onload``` etableras på body-elementet
 * ```onload``` anropar en funktion med namnet ```minFunktion```
 * Dess argument (indata) är tomt, men parenteser måste finnas
