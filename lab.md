@@ -136,7 +136,7 @@ Skriv följande kod
 </html>
 ```
 
-* ```setInterval``` (ett tids event) har som indata en funktion utan namn (anonym funktion) och ett millisekundvärde
+* ```setInterval``` (ett tidsevent) har som indata en funktion utan namn (anonym funktion) och ett millisekundvärde
 * Den anonyma funktionen anropas varje 1000mS (varje sekund)
 * ```setInterval``` anropas ända tills ```clearInterval()``` anropas eller fönstret stängs
 * Det anonyma funktionsuttrycket anropar funktionen ```myTimer```
