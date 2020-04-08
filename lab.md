@@ -29,7 +29,7 @@
 5. skriv ```a.hidden = true```
 5. Vad hände på webbsidan?
 5. skriv ```a.hidden = false```
-5. skriv ```a.insertAdjacentHTML('afterend', '<span>Sundström</span>')
+5. skriv ```a.insertAdjacentHTML('afterend', '<span>Sundström</span>')```
 5. Vad hände på webbsidan?
 
 insertAdjacentHTML har 4 parametrar...
@@ -38,7 +38,7 @@ insertAdjacentHTML har 4 parametrar...
 * ```beforeend``` innanför valt element, efter eventuella child's
 * ```afterend``` efter vald element
 
-5. Skriv ```a.style.color = 'red'````
+5. Skriv ```a.style.color = 'red'```
 5. Vad hände på webbsidan?
 
 Med Javascript når vi allt, inklusive CSS, i ett HTML-dokument genom DOM. 
