@@ -69,7 +69,7 @@ Skriv följande kod
 
 ### Javascript events
 
-| Event | Description |
+| Event | Beskrivning |
 |---|---|
 |onchange |	HTML-element har ändrats |
 |onclick |	Användaren klickar på ett HTML-element |
