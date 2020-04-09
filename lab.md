@@ -53,13 +53,14 @@ Skriv följande kod
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        var a = document.getElementById('myDiv');
-        a.innerHTML = 'Johan';
-    </script>
 </head>
 <body>
     <div id="myDiv"></div>
+    
+    <script>
+        var a = document.getElementById('myDiv');
+        a.innerHTML = 'Johan';
+    </script>    
 </body>
 </html>
 ```
