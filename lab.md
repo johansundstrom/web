@@ -99,6 +99,8 @@ Skriv följande kod
         }
     </script>
 </head>
+    <div id="myDiv"></div>
+    
     <body onload="minFunktion()">
 </body>
 </html>
