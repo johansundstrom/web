@@ -1,6 +1,6 @@
 # Webbutveckling
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/johansundstrom/web?style=plastic)
+https://img.shields.io/github/last-commit/johansundstrom/web?style=plastic
 
 * Metod
 * Designprinciper
