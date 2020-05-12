@@ -23,7 +23,7 @@
 * Visuell struktur
 * Typografi
 * Bilder
-* SNL
+* SNL 
 
 ## Visual Studio Code - 1
 
