@@ -1,5 +1,7 @@
 # Webbutveckling
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/johansundstrom/web?style=plastic)
+
 * Metod
 * Designprinciper
 * HTML och CSS
