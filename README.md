@@ -231,3 +231,73 @@ $myNav: $myWidth * 0.25;
 * b4-
 * b4-navbar-default
 * ...
+
+
+## Layout med CSS Grid
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item grid-item-1">1</div>
+        <div class="grid-item grid-item-2">2</div>
+        <div class="grid-item grid-item-3">3</div>
+        <div class="grid-item grid-item-4">4</div>
+        <div class="grid-item grid-item-5">5</div>
+        <div class="grid-item grid-item-6">6</div>
+        <div class="grid-item grid-item-7">7</div>
+        <div class="grid-item grid-item-8">8</div>
+        <div class="grid-item grid-item-9">9</div>
+      </div>
+</body>
+</html>
+```
+
+```
+/*
+    display: grid;
+    display: inline-grid;
+    grid-gap: 10px;
+
+*/
+.grid-container,  .grid-item {
+    padding: 3px;
+}
+
+.grid-container {
+    display: grid;
+    background-color: red;
+
+    grid-gap: 3px;
+  }
+
+.grid-item { 
+    
+    background-color: rgba(255, 255, 255);
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* grid-column: 1 / 5  -  shorthand for grid-column-start/end */
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.grid-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+```
