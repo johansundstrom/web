@@ -235,7 +235,7 @@ $myNav: $myWidth * 0.25;
 
 ## Layout med CSS Grid
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -260,7 +260,7 @@ $myNav: $myWidth * 0.25;
 </html>
 ```
 
-```
+```css
 /*
     display: grid;
     display: inline-grid;
