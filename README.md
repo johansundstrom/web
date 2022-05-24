@@ -14,21 +14,27 @@
 * Webbeditorer
 * Navigation
 
-## Metod
+## Metod för webbprojekt
 
-* HISU
+HISU
+
+* Research
+* Strategi
+* Design & dokumentation
+* Presentation
 
 ## Designprinciper
 
 * Kognition/perception
 * Gestaltlagar
-* Visuell struktur
+* Visuell struktur (hierarki)
 * Typografi
 * Bilder
-* SNL 
+* SNL
 
 ## Visual Studio Code - 1
 
+* Installera
 * Color Theme
 * Extensions - Live Server (Microsoft), Lorem ipsum (Daniel Imms)
 
@@ -162,7 +168,7 @@ $myNav: $myWidth * 0.25;
 
 ## Bootstrap Icons (v5.2)
 
-* CDN'a in icon fonts
+* CDN'a in bootstrap icons i HEAD
 * ```<i class="bi bi-facebook"></i>```
 
 ## CSS Framework - 2
