@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/johansundstrom/web?style=plastic)
 <img src="https://img.shields.io/badge/Status-Progress-orange?style=plastic">
-<img src="https://img.shields.io/badge/github/issues/johansundstrom/web?style=plastic">
+<img src="https://img.shields.io/github/issues/johansundstrom/web?style=plastic">
 
 * Metod
 * Designprinciper
