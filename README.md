@@ -159,6 +159,11 @@ $myNav: $myWidth * 0.25;
 <i class="fab fa-facebook-square"></i>
 ```
 
+## Bootstrap Icons (v5.2)
+
+* CDN'a in icon fonts
+* ```<i class="bi bi-facebook"></i>```
+
 ## CSS Framework - 2
 
 * Fasta bildstorlekar i dynamiska miljöer
