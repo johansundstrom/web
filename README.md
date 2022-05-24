@@ -1,7 +1,7 @@
 # Webbutveckling
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/johansundstrom/web?style=plastic)
-<img src="https://img.shields.io/badge/Status-Finished-brightgreen">
+<img src="https://img.shields.io/badge/Status-Progress-Orange">
 
 * Metod
 * Designprinciper
