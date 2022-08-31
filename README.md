@@ -1,4 +1,4 @@
-# Webbutveckling 2
+# Webbutveckling
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/johansundstrom/web?style=plastic)
 <img src="https://img.shields.io/badge/Status-In Progress-orange?style=plastic">
